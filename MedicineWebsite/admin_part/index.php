@@ -113,7 +113,10 @@ include('../functions/common_function.php');
         }   
         if (isset($_GET['viewContact'])) {
             include('viewContact.php');
-        }   
+        } 
+        if (isset($_GET['delete_product'])) {
+            include('delete_product.php');
+        }
         ?>
     </div>
 
